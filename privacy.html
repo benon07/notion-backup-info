@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>プライバシーポリシー | Notion Backup Personal</title>
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:60px auto;padding:0 24px;line-height:1.8;color:#162c3c;background:#f7fafb}main{background:white;padding:32px;border-radius:16px}a{color:#176c86}</style>
+<main><h1>プライバシーポリシー</h1><p>Notion Backup Personal · 更新日：2026年10月9日</p>
+<h2>取得と利用</h2><p>ユーザーが許可したNotion APIのページ、データベース、添付ファイルをバックアップします。Google Driveのdrive.file権限で、アプリが作成または利用を許可されたバックアップファイルの内容とメタデータを扱います。用途は保存、整合性確認、二次コピー、復元のための取得です。</p>
+<h2>保存と認証</h2><p>バックアップはユーザーのGoogle Drive、Windowsの作業領域、選択した外付けSSD/HDDに保存します。Google認証情報はWindowsのDPAPIで暗号化します。自動実行用のNotion・Google認証情報は、ユーザーが許可した専用の非公開GitHubリポジトリのSecretsにも保存します。ログには処理状態、件数、検証結果を記録し、認証値や本文を出力しません。</p>
+<h2>第三者への提供</h2><p>Google Driveへバックアップを送信し、GitHub Actionsを自動実行の管理に使用します。Windowsの実行役がデータ取得と保存を行います。運用者が設定した通知先には失敗の概要だけを送ります。このアプリの処理にAIモデルへのデータ送信は含まれません。広告、販売、機械学習モデルの学習を目的とした利用は行いません。</p>
+<h2>保持・削除・許可の撤回</h2><p>世代バックアップは自動削除せず、ユーザーが削除するまで保存します。Driveで削除しても独立した外付けコピーへ削除を伝播しません。完全な削除にはDrive、Windows、外付けそれぞれの保存物を削除してください。Googleアカウントの接続済みアプリ設定から許可を撤回できます。自動実行を停止し、GitHub SecretsとWindowsの認証ファイルも削除してください。</p>
+<h2>Google APIユーザーデータ</h2><p>Google APIから受け取った情報の利用・転送は、Limited Useの要件を含む<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>に従います。</p>
+<h2>管理者</h2><p>運用管理：GitHubアカウント <a href="https://github.com/benon07">benon07</a>。運用者本人の個人用アプリです。処理内容が変わる場合は、このポリシーを更新します。</p><p><a href="index.html">アプリ説明へ戻る</a></p></main></html>
